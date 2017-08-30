@@ -1,0 +1,28 @@
+{
+  "author": "Ersun Warncke <ersun.warncke@gmail.com>",
+  "dependencies": {
+    "debug": "3.0.1",
+    "immutable-core": "1.4.29"
+  },
+  "description": "Services built on Immutable Core",
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-as-promised": "7.1.1",
+    "chai-subset": "1.5.0",
+    "mocha": "3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "license": "MIT",
+  "main": "lib/immutable-core-service.js",
+  "name": "immutable-core-service",
+  "repository": "warncke/immutable-core-service",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.1"
+}
