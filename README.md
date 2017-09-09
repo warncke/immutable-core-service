@@ -36,3 +36,5 @@ seconds.
 The data object returned by `initialize` will become the shared state for the
 service.
 
+Data is stored in the module data and can be accessed via
+`fooService.module.meta.data`.
