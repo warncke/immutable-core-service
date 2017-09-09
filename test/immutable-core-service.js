@@ -1,10 +1,15 @@
 'use strict'
 
+/* npm modules */
 const chai = require('chai')
-const assert = chai.assert
 const sinon = require('sinon')
 
+/* application modules */
 const ImmutableCoreService = require('../lib/immutable-core-service')
+
+/* chai config */
+const assert = chai.assert
+sinon.assert.expose(chai.assert, { prefix: '' })
 
 describe('immutable-core-service', function () {
 
@@ -38,7 +43,7 @@ describe('immutable-core-service', function () {
         // wait for all initialize functions to complete
         await ImmutableCoreService.initializeAll()
         // check that initialize called
-        assert(initializeStub.calledOnce)
+        assert.calledOnce(initializeStub)
         // check that initialize data set
         assert.deepEqual(fooService.data, {foo: true})
         // check that data id set
