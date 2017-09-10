@@ -4,7 +4,7 @@
     "bluebird": "3.5.0",
     "debug": "3.0.1",
     "deep-freeze": "0.0.1",
-    "immutable-core": "2.1.2",
+    "immutable-core": "2.2.1",
     "is-helpers": "^0.0.1",
     "stable-id": "^1.0.7"
   },
@@ -13,7 +13,7 @@
     "chai": "4.1.2",
     "chai-as-promised": "7.1.1",
     "chai-subset": "1.6.0",
-    "mocha": "3.5.0",
+    "mocha": "3.5.1",
     "sinon": "^3.2.1"
   },
   "directories": {
@@ -29,5 +29,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
