@@ -124,7 +124,7 @@ describe('immutable-core-service', function () {
                 name: 'foo',
                 reinitializeInterval: 'test',
             })
-        }, 'reinitializeInternal must be integer')
+        }, 'reinitializeInterval must be integer')
     })
 
 })
