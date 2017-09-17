@@ -2,19 +2,15 @@
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
     "bluebird": "3.5.0",
-    "debug": "3.0.1",
-    "deep-freeze": "0.0.1",
+    "if-defined": "1.0.13",
     "immutable-core": "2.2.2",
-    "is-helpers": "^0.0.1",
-    "stable-id": "^1.0.8"
+    "stable-id": "1.0.8"
   },
   "description": "Services built on Immutable Core",
   "devDependencies": {
     "chai": "4.1.2",
-    "chai-as-promised": "7.1.1",
-    "chai-subset": "1.6.0",
-    "mocha": "3.5.1",
-    "sinon": "^3.2.1"
+    "mocha": "3.5.3",
+    "sinon": "3.2.1"
   },
   "directories": {
     "test": "test"
@@ -29,5 +25,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.1.4"
+  "version": "0.2.0"
 }
