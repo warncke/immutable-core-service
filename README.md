@@ -37,4 +37,30 @@ The data object returned by `initialize` will become the shared state for the
 service.
 
 Data is stored in the module data and can be accessed via
-`fooService.module.meta.data`.
+`fooService.module.data`.
+
+## Initializing services
+
+    await ImmutableCoreService.initializeAll()
+
+The `initializeAll` method will call the `initialize` method for each globally
+registered service and resolve once all services have been initialized.
+
+After all services have been initialized the global reinitialize check will be
+started.
+
+## Starting reinitialize check
+
+    ImmutableCoreService.reinitializeStart()
+
+`reinitializeStart` sets an interval that will call `reinitializeCheck` every
+1 second (1000ms).
+
+This is called by `initializeAll` once it completes.
+
+## Stopping reinitialize check
+
+    ImmutableCoreService.reinitializeStop()
+
+`reinitializeStop` clears the interval set by `reinitializeStart`. It does not
+abort any initialize calls in progress.
