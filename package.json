@@ -3,14 +3,14 @@
   "dependencies": {
     "bluebird": "3.5.0",
     "if-defined": "1.0.14",
-    "immutable-core": "2.2.5",
+    "immutable-core": "2.2.6",
     "stable-id": "1.0.9"
   },
   "description": "Services built on Immutable Core",
   "devDependencies": {
     "chai": "4.1.2",
     "mocha": "3.5.3",
-    "sinon": "3.3.0"
+    "sinon": "4.0.0"
   },
   "directories": {
     "test": "test"
@@ -25,5 +25,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.2.7"
+  "version": "0.2.8"
 }
