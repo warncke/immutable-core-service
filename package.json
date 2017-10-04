@@ -1,9 +1,9 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "bluebird": "3.5.0",
+    "bluebird": "3.5.1",
     "if-defined": "1.0.15",
-    "immutable-core": "2.2.10",
+    "immutable-core": "2.2.11",
     "stable-id": "1.0.10"
   },
   "description": "Services built on Immutable Core",
@@ -25,5 +25,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.2.12"
+  "version": "0.2.13"
 }
