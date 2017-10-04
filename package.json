@@ -3,7 +3,7 @@
   "dependencies": {
     "bluebird": "3.5.0",
     "if-defined": "1.0.15",
-    "immutable-core": "2.2.8",
+    "immutable-core": "2.2.9",
     "stable-id": "1.0.9"
   },
   "description": "Services built on Immutable Core",
@@ -25,5 +25,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.2.10"
+  "version": "0.2.11"
 }
