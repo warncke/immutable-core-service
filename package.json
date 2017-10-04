@@ -2,15 +2,15 @@
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
     "bluebird": "3.5.0",
-    "if-defined": "1.0.14",
-    "immutable-core": "2.2.7",
+    "if-defined": "1.0.15",
+    "immutable-core": "2.2.8",
     "stable-id": "1.0.9"
   },
   "description": "Services built on Immutable Core",
   "devDependencies": {
     "chai": "4.1.2",
-    "mocha": "3.5.3",
-    "sinon": "4.0.0"
+    "mocha": "4.0.0",
+    "sinon": "4.0.1"
   },
   "directories": {
     "test": "test"
@@ -25,5 +25,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.2.9"
+  "version": "0.2.10"
 }
