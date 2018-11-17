@@ -22,7 +22,7 @@ describe('immutable-core-service', function () {
         ImmutableCore.reset()
         ImmutableCoreService.reset()
         // create sinon sandbox
-        sandbox = sinon.sandbox.create()
+        sandbox = sinon.createSandbox()
     })
 
     afterEach(function () {
